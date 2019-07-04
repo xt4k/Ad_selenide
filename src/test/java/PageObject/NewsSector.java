@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class NewsPageObject {
+public class NewsSector {
 
     @FindBy(how = How.XPATH, using = "id(\"main\")/div/a")
     private WebElement linkNewsChTop;

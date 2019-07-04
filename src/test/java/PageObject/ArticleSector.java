@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class ArticlePageObject {
+public class ArticleSector {
 
     @FindBy(how = How.XPATH, using = "id(\"dynimage7\")")
     private WebElement roundImgLinkArticle;

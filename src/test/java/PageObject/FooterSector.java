@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class FooterPageObject {
+public class FooterSector {
 
     @FindBy(how = How.XPATH, using = ".//div//a[@href='http://www.custompublish.com/']")
     private WebElement linkBottomPowered;

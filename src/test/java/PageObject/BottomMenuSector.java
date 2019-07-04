@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class BottomMenuPageObject {
+public class BottomMenuSector {
 
     @FindBy(how = How.XPATH, using = "id(\"amenuitem378949\")")
     private WebElement itemDownMenu1BusIdea;

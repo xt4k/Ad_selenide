@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class ShipMenuPageObject {
+public class ShipTriBubbleSector {
     @FindBy(how = How.XPATH, using = "id(\"sidebarelement1_1\")//li[@class='yellow']")
     private WebElement roundFirstShipping;
 
