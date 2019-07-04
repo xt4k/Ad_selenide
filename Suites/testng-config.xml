@@ -13,7 +13,7 @@
     <test name="Login Tests Firefox">
         <parameter name="browser" value="firefox" />
         <classes>
-            <class name="SiteTest.Pages.HomePageTest" />
+            <class name="SiteTest.Pages.HomePageTest"/>
         </classes>
     </test>
 </suite>
