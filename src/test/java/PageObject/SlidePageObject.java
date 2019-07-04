@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class SlidePageObject {
-   @FindBy(how = How.XPATH, using = "id(\"dynimage8\")")
+    @FindBy(how = How.XPATH, using = "id(\"dynimage8\")")
     private WebElement dinCentralSlide0;
 
 
