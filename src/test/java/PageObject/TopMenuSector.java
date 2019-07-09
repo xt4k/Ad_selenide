@@ -8,6 +8,8 @@ public class TopMenuSector {
     @FindBy(how = How.XPATH, using = "id(\"header\")//img")
     private WebElement imgLinkTopHomePage;
 
+    @FindBy(how=How.ID, using="mainmenuamenuitem473730")
+    private WebElement topMenuItemApplyPosition;
 
     @FindBy(how = How.XPATH, using = "id(\"mainmenuamenuitem356554\")")
     private WebElement topMenuItemFirst;
