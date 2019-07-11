@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Ad_POM" />
-        <module name="Adonis" />
+        <module name="Adonis_selenide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Ad_POM" target="1.8" />
+      <module name="Adonis_selenide" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
